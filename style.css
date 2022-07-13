@@ -10,4 +10,103 @@ body{
   justify-content: space-around;
   align-items: center;
   color: white;
+  padding: 16px;
+  padding-bottom: 30px
+}
+
+.links{
+  display: flex;
+  gap: 8px;
+  font-size: small;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+
+.cats {
+  width: 150px;
+  border-radius: 25px;
+}
+
+.hero-container {
+  padding: 0;
+}
+
+.hero{
+  background-color: #1F2937;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.hero-title {
+  padding-top: 0;
+}
+
+.hero-text{
+  max-width: 250px;
+}
+
+.hero-button{
+  padding-left: auto;
+  text-align: right;
+
+}
+
+.info{
+  text-align: center;
+}
+
+.info-title{
+  font-size: 36px;
+  padding-bottom: 18px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-evenly
+}
+
+.info-text{
+  text-align: center;
+  vertical-align: middle;
+  text-align: center;
+  display: block;
+  padding: 0;
+  margin: 50px;
+}
+.cats {
+  border: 2px solid blue;
+  float: left;
+  width: 150px;
+  height: 150px
+  object-fit: cover;
+}
+
+.quotebox {
+  background-color: #e5e7eb;
+  padding: 150px;
+}
+
+.quote{
+  font-size: 36px;
+  color: #1f2937
+}
+
+.quote-author{
+  display: block;
+  padding-left: 750px;
+}
+.sign-up{
+  background-color: white;
+}
+.action{
+  text-align: center;
+  background-color: #3882f6
+
 }
