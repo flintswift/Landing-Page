@@ -1,3 +1,7 @@
+:root {
+  --darkblue: #1F2937;
+}
+
 body{
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -6,7 +10,7 @@ body{
 }
 
 .header{
-  background-color: #1F2937;
+  background-color: var(--darkblue);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,7 +45,7 @@ ul {
 }
 
 .hero{
-  background-color: #1F2937;
+  background-color: var(--darkblue);
   color: white;
   display: flex;
   align-items: flex-start;
@@ -160,13 +164,13 @@ ul {
 }
 .actionsign-up{
   float: right;
+  position: relative;
   font-weight: bold;
-  padding: 24px;
+  padding: 16px;
   padding-left: 48px;
   padding-right: 48px;
   background-color: #3882f6;
   border: 2px solid white;
-  float: inline-end;
   color: white;
   border-radius: 12px;
   font-size: 18px;
