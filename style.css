@@ -7,6 +7,7 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  min-width: 600px;
 }
 
 .header{
@@ -26,7 +27,7 @@ body{
 
 .links{
   display: flex;
-  gap: 8px;
+  gap: 16px;
   font-size: medium;
 }
 
@@ -91,7 +92,6 @@ ul {
 }
 
 
-
 .info-title{
   font-size: 36px;
   padding-bottom: 18px;
@@ -135,7 +135,7 @@ ul {
 
 .quote-author{
   padding-top: 24px;
-  margin-left: 0;
+  margin-left: 200px;
   margin-right: auto;
   float: right;
 }
